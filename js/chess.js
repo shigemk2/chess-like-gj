@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     for (var i = 0; i < 12; i++) {
         objs[i] = document.createElement("object");
-        objs[i].data = "Chess_" + "kqrbnp"[i % 6] + (i < 6 ? "d" : "l") + "t45.svg";
+        objs[i].data = "img/Chess_" + "kqrbnp"[i % 6] + (i < 6 ? "d" : "l") + "t45.svg";
         objs[i].type = "image/svg+xml";
         objs[i].width = objs[i].height = 45;
         objs[i].onload = function() {
